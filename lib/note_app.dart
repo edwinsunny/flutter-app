@@ -34,8 +34,8 @@ class _NoteAppState extends State<NoteApp> {
                           controller: textEditingController,
                           decoration: InputDecoration(
                             border: OutlineInputBorder(),
-                            labelText: 'City Name',
-                            hintText: 'Enter Your City Name',
+                            labelText: 'Notes',
+                            hintText: 'Add your notes',
                           ),
                         ),
                       ),
