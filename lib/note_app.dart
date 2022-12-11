@@ -27,7 +27,7 @@ class _NoteAppState extends State<NoteApp> {
                 return StatefulBuilder(
                   builder: (context, setState) {
                     return AlertDialog(
-                      title: Text("Title of Dialog"),
+                      title: Text("Notes"),
                       content: Padding(
                         padding: EdgeInsets.all(15),
                         child: TextField(
